@@ -1,0 +1,31 @@
+Commands for Linux:
+
+1) Install unrar and, separately, the Arduino IDE:  https://www.arduino.cc/en/software/
+   This was last tested with Arduino IDE version 2.3.10
+2) un-rar Dragon_Head.rar
+3) Open up Dragon_Head.ino with the Arduino IDE 
+4) Go back to the directory containing the un-rar'd files.  You should see FastGoertzel.rar.  Type in the following command:
+unrar x libraries.rar ~/Arduino/libraries/
+  
+5) Install FastLED library version 3.6.0 from:
+  Sketch>Include Library>Manage Libraries
+  IMPORTANT!  Do not install the latest version of FastLED - it will not work here.  Version 3.6.0 is known to work - use that.
+6) Go to File>Preferences and add this URL to the Additional Boards Manager URLs field:
+https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+7) Plug in your Seeeduino to your computer.  The seeeduino needs USB-C!
+8) Select the Seeeduino Xiao or Seeeduino Xiao MO board on the drop-down menu near the top of the Arduino IDE.  If it isn't visible, go to "Select other board and port..." and then search for it there.  
+NOTE: On Linux, it is possible your user doesn't have relevant permissions to access your USB block device.  To fix this, add your user to the following group...
+
+If on Ubuntu or Debian or RHEL or similar OS:
+sudo usermod -aG dialout $USER
+
+If on arch or similar OS:
+sudo usermod -aG uucp $USER
+
+and then either relog into your Desktop or reboot.  The Arduino IDE should recognize your plugged-in Seeeduino after that
+
+9) Run Sketch>Verify/Compile.  
+10) If step 9 completed correctly, run Sketch>Upload
+
+Once that finishes, the lighting rig should be lit up!  The default pattern I programmed on it is one that has a different color shine through each LED while all the colors continually cycle.
+
