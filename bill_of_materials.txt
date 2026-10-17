@@ -1,0 +1,28 @@
+*13 x WS2812b LEDs - https://www.amazon.com/dp/B01DC0J0WS
+*3 x UV LEDs - https://www.amazon.com/dp/B017TRGM2Q
+*1 x USB power pigtail cable - https://www.amazon.com/dp/B0BJTYHTHR
+*1 x WS2811 LED RGB pixel controller - https://www.aliexpress.us/item/2251832280943455.html
+*1 x Seeed Studio XIAO SAMD21 (a.k.a. Seeeduino XIAO) - https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html
+*Roughly 3 meters of 4mm side-emitting fiber - https://www.amazon.com/dp/B0C7KVQ5HL
+*Roughly 4 meters of 2mm side-emitting fiber - https://www.amazon.com/dp/B0CFLRFKZP
+*Roughly 75-90 inches of 3-piece wire. I used servo-wire - https://www.amazon.com/dp/B09YPVF26X
+*Roughly 16-20 sheets of Chipboard or alternative material to make the head base.  I used 57-point Chipboard - https://www.amazon.com/Samsill-Chipboard-Compatible-Scrapbooking-Projects/dp/B09CP12KF8/
+*2~ inches of x 3/16" 3:1 clear heat-shrink - https://www.amazon.com/XHF-160-PCS-Clear-Wear-Resistant/dp/B07JZ2BCCY/
+*1 x Glue stick - https://www.amazon.com/Elmers-Disappearing-Purple-School-Sticks/dp/B08PC5R5BD/
+
+Everything else....
+*Heat shrink for the wires coming out of the 3-D printed Seeduino case (to cover 3-wire servo wire, USB wire, and wires of anything else you optionally add to the arduino)
+*Heat shrink for the WS2811 LED controller to protect the solder joints 
+*Spray paint of a color of your choice
+*Primer (if the spray paint doesn't have primer mixed in)
+*White acrylic paint
+*Green flourescent acrylic paint
+*Paintbrush
+*Tape (to tape down any of the lighting harness wires in the dragon head if any are in the way when you put your head in)
+*Needle-and-thread 
+*(optional) Flex bond for the stitches so they don't become un-done over time through use.
+
+Tools:
+*Soldering iron + solder + anything else you'd use for a soldering project
+*Printer (to print the .pdf for the dragon head assembly)
+*(Very helpful to have for continuity checks to look for bridged contact pads) Multimeter
