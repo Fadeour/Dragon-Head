@@ -4,7 +4,7 @@ Commands for Linux:
    This was last tested with Arduino IDE version 2.3.10
 2) un-rar Dragon_Head.rar
 3) Open up Dragon_Head.ino with the Arduino IDE 
-4) Go back to the directory containing the un-rar'd files.  You should see FastGoertzel.rar.  Type in the following command:
+4) Go back to the directory containing the un-rar'd files.  You should see libraries.rar.  Type in the following command:
 unrar x libraries.rar ~/Arduino/libraries/
   
 5) Install FastLED library version 3.6.0 from:
